@@ -34,17 +34,18 @@ An interactive Python-based web application built with **Streamlit**, allowing u
 
 ## 📁 Project Structure
 
-/ai_tshirt_designer_app/
-├── app.py
-├── pages/
-│ ├── 1_Designer.py
-│ ├── 2_Cart.py
-│ └── 3_Checkout.py
-├── assets/
-│ ├── logo.png
-│ └── [T-shirt templates]
+```text
+ai_tshirt_designer_app/
+├── app.py                        # Main entry point (Home page)
+├── pages/                        # Additional app pages
+│   ├── 1_Designer.py             # T-shirt Designer Page
+│   ├── 2_Cart.py                 # Shopping Cart Page
+│   └── 3_Checkout.py             # Checkout & Order Form
+├── assets/                       # Static assets
+│   ├── logo.png                  # Brand logo
+│   └── [T-shirt templates]       # PNG files for each shirt type
 └── .streamlit/
-└── config.toml
+    └── config.toml               # Theme and page config
 
 ---
 
@@ -52,7 +53,7 @@ An interactive Python-based web application built with **Streamlit**, allowing u
 
 **Team Sparsa**  
 MIT 588 – Software Development and Management  
-[Your University Name]
+[Atlantis University]
 
 - **Ramana** – Backend Logic, Cart Integration, Deployment
 - **Asha** – UI/UX Design, Visual Assets
