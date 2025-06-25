@@ -25,3 +25,13 @@ if st.button("🎨 Start Designing", use_container_width=True):
 
 if 'cart' not in st.session_state:
     st.session_state.cart = []
+
+st.markdown("---")
+st.markdown("### 🙌 Project Credits")
+st.markdown("""
+**Team Sparsa** – MIT 588: Software Development and Management  
+- 👨‍💻 **Ramana** – Backend Logic, Cart Integration, Deployment  
+- 🎨 **Asha** – UI/UX Design, Visual Assets  
+- 🧪 **Srikar** – Testing, Documentation  
+- 📊 **Saphal** – Workflow Planning, Presentation  
+""")
